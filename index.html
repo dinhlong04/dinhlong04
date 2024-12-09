@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fashion Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Our Fashion Store</h2>
+            <p>Your one-stop destination for stylish, high-quality fashion!</p>
+            <hr>
+            <h3>Explore the Latest Trends</h3>
+            <p>Step into the world of fashion and discover our latest collection. From timeless classics to trendy must-haves, we bring you an exclusive range of clothing, accessories, and footwear to express your unique style.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <hr>
+            <p>At <strong>Fashion Store</strong>, we are passionate about making fashion accessible to everyone. We curate high-quality products that combine style, comfort, and affordability. With attention to detail and a commitment to excellence, we strive to make your shopping experience unforgettable.</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product">
+                <h3>---  Hoodie  ---</h3>
+                <img src="assets/hoodie.jpg" alt="Hoodie" />
+                <p>Price: $42.98</p>
+                <button onclick="addToCart('Hoodie')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>---  Sweatshirt  ---</h3>
+                <img src="assets/sweatshirt.jpg" alt="Sweatshirt" />
+                <p>Price: $36.98</p>
+                <button onclick="addToCart('Sweatshirt')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>---  T-Shirt  ---</h3>
+                <img src="assets/tshirt.jpg" alt="T-Shirt" />
+                <p>Price: $24.98</p>
+                <button onclick="addToCart('T-Shirt')">Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <hr>
+            <p>We are committed to protecting your personal information and using it only for service purposes.</p>
+        </section>
+
+        <section id="terms">
+            <h2>Terms of Service</h2>
+            <hr>
+            <p>Please read our terms and conditions carefully before using our services.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Fashion Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
